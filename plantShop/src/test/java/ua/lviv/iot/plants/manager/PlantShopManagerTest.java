@@ -30,7 +30,7 @@ class PlantShopManagerTest extends PlantShopManagerBaseTest {
 	public void testFindPlantByPlantingSeason() {
 		List<GardenPlant> plant = plantShopManager.findPlantsBy(PlantingSeason.SPRING);
 		assertEquals(3, plant.size());
-
+		assertEquals(PlantingSeason.SPRING, plant.get(0).getPlantingSeason());
 	}
 
 }

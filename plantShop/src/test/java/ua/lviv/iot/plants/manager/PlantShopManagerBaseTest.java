@@ -20,8 +20,8 @@ public abstract class PlantShopManagerBaseTest {
 
 	public void supplyVegetables() {
 		vegetable = new LinkedList<GardenPlant>();
-		vegetable.add(new Vegetable("Cucumber", PlantingSeason.SPRING, 1, 2734.88, 150, false));
-		vegetable.add(new Vegetable("Tomato", PlantingSeason.SPRING, 1, 7242.42, 180, true));
+		vegetable.add(new Vegetable("Pickle", PlantingSeason.SPRING, 1, 2734.88, 150, false));
+		vegetable.add(new Vegetable("Tomato", PlantingSeason.SPRING, 3, 7242.42, 180, true));
 	}
 
 	public void supplyFruits() {
