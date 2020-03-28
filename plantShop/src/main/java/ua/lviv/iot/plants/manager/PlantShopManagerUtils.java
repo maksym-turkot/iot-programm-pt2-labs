@@ -10,9 +10,8 @@ public class PlantShopManagerUtils {
   private static final PlantsSorterBySeedsPricePerKgInUah PLANTS_SORTER_BY_PRICE =
       new PlantsSorterBySeedsPricePerKgInUah();
 
-  private static PlantShopManagerUtils plantsSorterByName = new PlantShopManagerUtils();
   private static final PlantsSorterByName PLANTS_SORTER_BY_NAME =
-      plantsSorterByName.new PlantsSorterByName();
+      new PlantShopManagerUtils().new PlantsSorterByName();
 
   public static void sortPlantsBySeedsPricePerKgInUah(List<GardenPlant> plants, SortType sortType) {
     plants.sort(sortType == SortType.ASC ? PLANTS_SORTER_BY_PRICE :

@@ -21,9 +21,9 @@ class PlantShopManagerTest extends PlantShopManagerBaseTest {
 
 		supplyAllPlants();
 
-		plantShopManager.addPlants(flower);
-		plantShopManager.addPlants(vegetable);
-		plantShopManager.addPlants(fruit);
+		plantShopManager.addPlants(flowers);
+		plantShopManager.addPlants(vegetables);
+		plantShopManager.addPlants(fruits);
 	}
 
 	@Test
