@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\manager\PlantShopManager.java
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\Vegetable.java
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\Flower.java
@@ -7,3 +8,15 @@ D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\u
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\manager\PlantShopManagerUtils.java
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\GardenPlant.java
 D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\PlantingSeason.java
+=======
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\writer\PlantShopWriter.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\Flower.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\Vegetable.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\SortType.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\CultivatedPlant.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\PlantingSeason.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\manager\PlantShopManager.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\GardenPlant.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\manager\PlantShopManagerUtils.java
+C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\src\main\java\ua\lviv\iot\plants\model\Fruit.java
+>>>>>>> Stashed changes

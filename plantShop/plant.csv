@@ -1,0 +1,12 @@
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, color
+Aster,SPRING,2,3283.42,DeepPurple
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, color
+Tulip,FALL,1,1170.25,Red
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, nutricionalValueInKCalPerKg, borshchIngredient
+Pickle,SPRING,1,2734.88,150,false
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, nutricionalValueInKCalPerKg, borshchIngredient
+Tomato,SPRING,3,7242.42,180,true
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, nutricionalValueInKCalPerKg, exotic
+Apple,WINTER,100,67.45,520,false
+name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, nutricionalValueInKCalPerKg, exotic
+Rambutan,SUMMER,10,95.1,680,true

@@ -35,4 +35,8 @@ public class PlantShopManager {
     }
     return result;
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

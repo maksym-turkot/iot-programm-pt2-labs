@@ -25,7 +25,11 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
+<<<<<<< Updated upstream
       <title>File: 9,
+=======
+      <title>File: 10,
+>>>>>>> Stashed changes
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -46,6 +50,23 @@ under the License.
           <tbody>
                           <tr>
                 <td>
+<<<<<<< Updated upstream
+=======
+                  <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.plants.writer.PlantShopWriter.java">ua/lviv/iot/plants/writer/PlantShopWriter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+>>>>>>> Stashed changes
                   <a href="http://maven.apache.org/checkstyle.html#ua.lviv.iot.plants.model.PlantingSeason.java">ua/lviv/iot/plants/model/PlantingSeason.java</a>
                 </td>
                 <td>

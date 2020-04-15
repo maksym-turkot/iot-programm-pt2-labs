@@ -5,7 +5,11 @@ public abstract class GardenPlant {
   protected String name;
   protected PlantingSeason plantingSeason;
   protected int lifespanInYears;
+<<<<<<< Updated upstream
   protected double seedsPricePerKgInUah;
+=======
+  protected double seedsPricePerKgInUaH;
+>>>>>>> Stashed changes
 
   public String getName() {
     return name;
@@ -31,6 +35,7 @@ public abstract class GardenPlant {
     this.lifespanInYears = lifespanInYears;
   }
 
+<<<<<<< Updated upstream
   public double getSeedsPricePerKgInUah() {
     return seedsPricePerKgInUah;
   }
@@ -59,5 +64,37 @@ public abstract class GardenPlant {
   public int compareTo(Flower another) {
     // TODO Auto-generated method stub
     return 0;
+=======
+  public double getSeedsPricePerKgInUaH() {
+    return seedsPricePerKgInUaH;
+  }
+
+  public void setSeedsPricePerKgInUaH(double seedsPricePerKgInUaH) {
+    this.seedsPricePerKgInUaH = seedsPricePerKgInUaH;
+  }
+
+  /**
+   * GardenPlant class constructor.
+   * 
+   * @param name defines plant's name
+   * @param plantingSeason shows when plant can be planted
+   * @param lifespanInYears indicates lifespan
+   * @param seedsPricePerKgInUaH shows how expensive plant is
+   */
+  public GardenPlant(String name, PlantingSeason plantingSeason, int lifespanInYears,
+      double seedsPricePerKgInUaH) {
+    this.name = name;
+    this.plantingSeason = plantingSeason;
+    this.lifespanInYears = lifespanInYears;
+    this.seedsPricePerKgInUaH = seedsPricePerKgInUaH;
+  }
+
+  public String getHeaders() {
+    return "name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH";
+  }
+
+  public String toCsV() {
+    return name + "," + plantingSeason + "," + lifespanInYears + "," + seedsPricePerKgInUaH;
+>>>>>>> Stashed changes
   }
 }
