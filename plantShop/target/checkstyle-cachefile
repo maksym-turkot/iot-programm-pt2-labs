@@ -1,30 +1,14 @@
-<<<<<<< Updated upstream
-#Wed Mar 18 16:48:44 EET 2020
-configuration*?=9D895A530E9040677B8403C9F277AAAC494C0088
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManagerUtils.java=1584542817330
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\CultivatedPlant.java=1584541988364
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManager.java=1584540030510
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\GardenPlant.java=1584542171340
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\PlantingSeason.java=1584541433612
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\SortType.java=1584541433601
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Flower.java=1584542865311
-module-resource*?\:checkstyle-xpath-suppressions.xml=96FFD1892496D1334A59DD8C99814D543A2D0E60
-module-resource*?\:checkstyle-suppressions.xml=2E0B2DB2B631B15505DE40FFBE19180F14F925C9
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Vegetable.java=1584542211011
-D\:\\my-projects\\iot-programm-pt-2\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Fruit.java=1584541590300
-=======
-#Wed Apr 15 16:18:50 EEST 2020
+#Thu Apr 16 21:07:32 EEST 2020
 configuration*?=AF0AF3D90CA2461344EE17DFA607A2553E87A9B2
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Flower.java=1586956321605
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\PlantingSeason.java=1586887067692
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Fruit.java=1586956330225
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManagerUtils.java=1586956198433
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\GardenPlant.java=1586956498494
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Vegetable.java=1586956343918
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\CultivatedPlant.java=1586956313936
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Flower.java=1587060073851
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\PlantingSeason.java=1586956862097
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Fruit.java=1587060155311
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManagerUtils.java=1587059975819
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\GardenPlant.java=1587060164821
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\Vegetable.java=1587060186141
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\CultivatedPlant.java=1587060234001
 module-resource*?\:checkstyle-xpath-suppressions.xml=D56DECD4365535D1FADB64E948560CC12964FA98
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManager.java=1586956066531
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\manager\\PlantShopManager.java=1587059953289
 module-resource*?\:checkstyle-suppressions.xml=B9A5AE10C90504A6F67BA47FF5C62DFEF5ECD3A5
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\SortType.java=1586887020074
-C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\writer\\PlantShopWriter.java=1586956700615
->>>>>>> Stashed changes
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\model\\SortType.java=1586956862098
+C\:\\Users\\maksy\\eclipse\\Eclipse-Workspace\\iot-programm-pt2-labs\\plantShop\\src\\main\\java\\ua\\lviv\\iot\\plants\\writer\\PlantShopWriter.java=1587057629992

@@ -18,8 +18,7 @@ public class PlantShopManager {
   }
 
   /**
-   * Checkstyle-recommended Javadoc comment.
-   * Plants search by planting season.
+   * Checkstyle-recommended Javadoc comment. Plants search by planting season.
    * 
    * @param plantingSeason is the search parameter
    * @return
@@ -35,8 +34,4 @@ public class PlantShopManager {
     }
     return result;
   }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

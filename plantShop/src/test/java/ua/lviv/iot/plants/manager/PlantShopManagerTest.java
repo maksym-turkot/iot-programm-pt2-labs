@@ -9,30 +9,6 @@ import ua.lviv.iot.plants.model.PlantingSeason;
 import java.util.List;
 
 class PlantShopManagerTest extends PlantShopManagerBaseTest {
-<<<<<<< Updated upstream
-
-	private PlantShopManager plantShopManager;
-
-	@BeforeEach
-	public void setUp() {
-		plantShopManager = new PlantShopManager();
-
-		supplyAllPlants();
-
-		plantShopManager.addPlants(flowers);
-		plantShopManager.addPlants(vegetables);
-		plantShopManager.addPlants(fruits);
-	}
-
-	@Test
-	public void testFindPlantByPlantingSeason() {
-		List<GardenPlant> plant = plantShopManager.findPlantsBy(PlantingSeason.SPRING);
-		assertEquals(3, plant.size());
-		assertEquals(PlantingSeason.SPRING, plant.get(0).getPlantingSeason());
-	}
-
-}
-=======
   private PlantShopManager plantShopManager;
 
   @BeforeEach
@@ -53,4 +29,3 @@ class PlantShopManagerTest extends PlantShopManagerBaseTest {
     assertEquals(PlantingSeason.SPRING, plant.get(0).getPlantingSeason());
   }
 }
->>>>>>> Stashed changes

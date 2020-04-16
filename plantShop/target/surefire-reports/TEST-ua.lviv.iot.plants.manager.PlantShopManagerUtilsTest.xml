@@ -1,72 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0.005" tests="3" errors="0" skipped="0" failures="0">
-  <properties>
-    <property name="java.specification.version" value="13"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\target\test-classes;D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\target\classes;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\maksy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\maksy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0.005" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0.03" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\target\test-classes;C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\target\classes;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\maksy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\maksy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
->>>>>>> Stashed changes
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Kiev"/>
     <property name="os.name" value="Windows 10"/>
-<<<<<<< Updated upstream
-    <property name="java.vm.specification.version" value="13"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\maksy\AppData\Local\Temp\surefire14563021984049931350\surefirebooter11516240628604854667.jar C:\Users\maksy\AppData\Local\Temp\surefire14563021984049931350 2020-03-18T16-48-17_893-jvmRun1 surefire10110931255439554749tmp surefire_08453428957377849841tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\target\test-classes;D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop\target\classes;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\maksy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\maksy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
-=======
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
-    <property name="sun.java.command" value="C:\Users\maksy\AppData\Local\Temp\surefire7433849573775534669\surefirebooter7658500495342544177.jar C:\Users\maksy\AppData\Local\Temp\surefire7433849573775534669 2020-04-15T16-18-32_589-jvmRun1 surefire13319616195521782425tmp surefire_010418475930984042927tmp"/>
+    <property name="sun.java.command" value="C:\Users\maksy\AppData\Local\Temp\surefire9338056859659921267\surefirebooter6286493860588874338.jar C:\Users\maksy\AppData\Local\Temp\surefire9338056859659921267 2020-04-16T21-07-06_111-jvmRun1 surefire11388845687360706205tmp surefire_014441016721143693216tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\target\test-classes;C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop\target\classes;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\maksy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\maksy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\maksy\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\maksy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;"/>
->>>>>>> Stashed changes
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\maksy"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-<<<<<<< Updated upstream
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop"/>
-=======
     <property name="java.version.date" value="2020-03-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop"/>
->>>>>>> Stashed changes
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-<<<<<<< Updated upstream
-    <property name="surefire.real.class.path" value="C:\Users\maksy\AppData\Local\Temp\surefire14563021984049931350\surefirebooter11516240628604854667.jar"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
-=======
-    <property name="surefire.real.class.path" value="C:\Users\maksy\AppData\Local\Temp\surefire7433849573775534669\surefirebooter7658500495342544177.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\maksy\AppData\Local\Temp\surefire9338056859659921267\surefirebooter6286493860588874338.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14+36-1461"/>
->>>>>>> Stashed changes
     <property name="user.name" value="maksy"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -76,21 +43,6 @@
     <property name="localRepository" value="C:\Users\maksy\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\maksy\AppData\Local\Temp\"/>
-<<<<<<< Updated upstream
-    <property name="java.version" value="13.0.2"/>
-    <property name="user.dir" value="D:\my-projects\iot-programm-pt-2\iot-programm-pt2-labs\plantShop"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk-13.0.2;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\maksy\Apache\apache-maven-3.6.3;C:\Users\maksy\Apache\apache-maven-3.6.3\bin;C:\Users\maksy\AppData\Local\Microsoft\WindowsApps;C:\Users\maksy\AppData\Roaming\npm-cache;C:\Users\maksy\AppData\LocalLow\Oracle\Java\jdk13.0.2_x64;C:\Users\maksy\AppData\LocalLow\Oracle\Java\jdk13.0.2_x64\bin;C:\Users\maksy\Apache\apache-maven-3.6.3;C:\Users\maksy\Apache\apache-maven-3.6.3\bin;C:\Users\maksy\AppData\Local\GitHubDesktop\bin;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="57.0"/>
-  </properties>
-  <testcase name="testSortPlantsByLifespanInYearsLambdaStyle" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
-=======
     <property name="java.version" value="14"/>
     <property name="user.dir" value="C:\Users\maksy\eclipse\Eclipse-Workspace\iot-programm-pt2-labs\plantShop"/>
     <property name="os.arch" value="amd64"/>
@@ -106,7 +58,6 @@
   <testcase name="testSortPlantsByLifespanInYearsLambdaStyle" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
   <testcase name="testSortPlantsByLifespanInYears" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
   <testcase name="testSortPlantsByLifespanAndName" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
->>>>>>> Stashed changes
   <testcase name="testSortPlantsBySeedsPricePerKgInUah" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
   <testcase name="testSortPlantsByName" classname="ua.lviv.iot.plants.manager.PlantShopManagerUtilsTest" time="0"/>
 </testsuite>

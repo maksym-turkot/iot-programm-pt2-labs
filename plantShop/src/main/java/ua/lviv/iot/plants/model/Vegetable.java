@@ -11,8 +11,6 @@ public class Vegetable extends CultivatedPlant {
   public void setBorshchIngredient(boolean borshchIngredient) {
     this.borshchIngredient = borshchIngredient;
   }
-<<<<<<< Updated upstream
-=======
 
   public Vegetable(String name, PlantingSeason plantingSeason, int lifespanInYears,
       double seedsPricePerKgInUaH, int nutricionalValueInKCalPerKg, boolean borshchIngredient) {
@@ -28,12 +26,5 @@ public class Vegetable extends CultivatedPlant {
   @Override
   public String toCsV() {
     return super.toCsV() + "," + borshchIngredient;
-  }
->>>>>>> Stashed changes
-
-  public Vegetable(String name, PlantingSeason plantingSeason, int lifespanInYears,
-      double seedsPricePerKgInUah, int nutricionalValueInKCalPerKg, boolean borshchIngredient) {
-    super(name, plantingSeason, lifespanInYears, seedsPricePerKgInUah, nutricionalValueInKCalPerKg);
-    this.borshchIngredient = borshchIngredient;
   }
 }

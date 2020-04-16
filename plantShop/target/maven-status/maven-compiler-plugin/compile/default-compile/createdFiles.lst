@@ -7,13 +7,7 @@ ua\lviv\iot\plants\writer\PlantShopWriter.class
 ua\lviv\iot\plants\manager\PlantShopManager.class
 ua\lviv\iot\plants\manager\PlantShopManagerUtils$1.class
 ua\lviv\iot\plants\model\SortType.class
-<<<<<<< Updated upstream
-ua\lviv\iot\plants\model\CultivatedPlant.class
-ua\lviv\iot\plants\manager\PlantShopManagerUtils$PlantsSorterBySeedsPricePerKgInUah.class
-=======
->>>>>>> Stashed changes
 ua\lviv\iot\plants\model\GardenPlant.class
 ua\lviv\iot\plants\model\Vegetable.class
-ua\lviv\iot\plants\manager\PlantShopManagerUtils$PlantsSorterByName.class
 ua\lviv\iot\plants\manager\PlantShopManagerUtils.class
 ua\lviv\iot\plants\model\PlantingSeason.class
