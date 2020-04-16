@@ -21,16 +21,16 @@ class PlantShopManagerTest extends PlantShopManagerBaseTest {
 
 		supplyAllPlants();
 
-		plantShopManager.addPlants(flower);
-		plantShopManager.addPlants(vegetable);
-		plantShopManager.addPlants(fruit);
+		plantShopManager.addPlants(flowers);
+		plantShopManager.addPlants(vegetables);
+		plantShopManager.addPlants(fruits);
 	}
 
 	@Test
 	public void testFindPlantByPlantingSeason() {
 		List<GardenPlant> plant = plantShopManager.findPlantsBy(PlantingSeason.SPRING);
 		assertEquals(3, plant.size());
-
+		assertEquals(PlantingSeason.SPRING, plant.get(0).getPlantingSeason());
 	}
 
 }
