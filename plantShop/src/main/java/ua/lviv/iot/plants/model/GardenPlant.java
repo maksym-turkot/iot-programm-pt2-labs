@@ -5,7 +5,8 @@ public abstract class GardenPlant {
   protected String name;
   protected PlantingSeason plantingSeason;
   protected int lifespanInYears;
-  protected double seedsPricePerKgInUah;
+  protected double seedsPricePerKgInUaH;
+
 
   public String getName() {
     return name;
@@ -31,33 +32,36 @@ public abstract class GardenPlant {
     this.lifespanInYears = lifespanInYears;
   }
 
-  public double getSeedsPricePerKgInUah() {
-    return seedsPricePerKgInUah;
+  public double getSeedsPricePerKgInUaH() {
+    return seedsPricePerKgInUaH;
   }
 
-  public void setSeedsPricePerKgInUah(double seedsPricePerKgInUah) {
-    this.seedsPricePerKgInUah = seedsPricePerKgInUah;
+  public void setSeedsPricePerKgInUaH(double seedsPricePerKgInUaH) {
+    this.seedsPricePerKgInUaH = seedsPricePerKgInUaH;
   }
 
   /**
-   * Checkstyle-recommended Javadoc comment.
-   * GardenPlant constructor.
+   * GardenPlant class constructor.
    * 
-   * @param name is plant's name
-   * @param plantingSeason is plant's planting season
-   * @param lifespanInYears is plant's lifespan
-   * @param seedsPricePerKgInUah is plant's seeds' price
+   * @param name defines plant's name
+   * @param plantingSeason shows when plant can be planted
+   * @param lifespanInYears indicates lifespan
+   * @param seedsPricePerKgInUaH shows how expensive plant is
    */
   public GardenPlant(String name, PlantingSeason plantingSeason, int lifespanInYears,
-      double seedsPricePerKgInUah) {
+      double seedsPricePerKgInUaH) {
     this.name = name;
     this.plantingSeason = plantingSeason;
     this.lifespanInYears = lifespanInYears;
-    this.seedsPricePerKgInUah = seedsPricePerKgInUah;
+    this.seedsPricePerKgInUaH = seedsPricePerKgInUaH;
   }
 
-  public int compareTo(Flower another) {
-    // TODO Auto-generated method stub
-    return 0;
+  public String getHeaders() {
+    return "name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH";
+  }
+
+  public String toCsV() {
+    return name + "," + plantingSeason + "," + lifespanInYears + "," + seedsPricePerKgInUaH;
+
   }
 }

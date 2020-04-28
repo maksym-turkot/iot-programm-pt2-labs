@@ -13,8 +13,19 @@ public class Flower extends GardenPlant {
   }
 
   public Flower(String name, PlantingSeason plantingSeason, int lifespanInYears,
-      double seedsPricePerKgInUah, String color) {
-    super(name, plantingSeason, lifespanInYears, seedsPricePerKgInUah);
+      double seedsPricePerKgInUaH, String color) {
+    super(name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH);
     this.color = color;
+  }
+
+  @Override
+  public String getHeaders() {
+    return super.getHeaders() + "," + " color";
+  }
+
+  @Override
+  public String toCsV() {
+    return super.toCsV() + "," + color;
+
   }
 }

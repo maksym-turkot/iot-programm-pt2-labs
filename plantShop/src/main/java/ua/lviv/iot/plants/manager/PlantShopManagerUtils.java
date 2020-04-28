@@ -14,13 +14,20 @@ public class PlantShopManagerUtils {
       new PlantShopManagerUtils().new PlantsSorterByName();
 
   public static void sortPlantsBySeedsPricePerKgInUah(List<GardenPlant> plants, SortType sortType) {
-    plants.sort(sortType == SortType.ASC ? PLANTS_SORTER_BY_PRICE :
-        PLANTS_SORTER_BY_PRICE.reversed());
+    plants.sort(
+        sortType == SortType.ASC ? PLANTS_SORTER_BY_PRICE : PLANTS_SORTER_BY_PRICE.reversed());
   }
 
+  /**
+   * Sorts plants by name.
+   * 
+   * @param plants is a list of plants
+   * @param sortType specifies preferred sorting type
+   */
   public static void sortPlantsByName(List<GardenPlant> plants, SortType sortType) {
-    plants.sort(sortType == SortType.ASC ? PLANTS_SORTER_BY_NAME :
-        PLANTS_SORTER_BY_NAME.reversed());
+    plants
+        .sort(sortType == SortType.ASC ? PLANTS_SORTER_BY_NAME : PLANTS_SORTER_BY_NAME.reversed());
+
   }
 
   public static void sortPlantsByLifespanInYears(List<GardenPlant> plants, SortType sortType) {
@@ -29,11 +36,10 @@ public class PlantShopManagerUtils {
   }
 
   /**
-   * Checkstyle-recommended Javadoc comment.
-   * Sorts plants by lifespan and name.
+   * Checkstyle-recommended Javadoc comment. Sorts plants by lifespan and name.
    * Uses anonymous class.
    * 
-   * @param plants represents GardenPlant list
+   * @param plants   represents GardenPlant list
    * @param sortType differentiates ascending and descending sort types
    */
   public static void sortPlantsByLifespanAndName(List<GardenPlant> plants, SortType sortType) {
@@ -56,15 +62,14 @@ public class PlantShopManagerUtils {
   }
 
   /**
-   * Checkstyle-recommended Javadoc comment.
-   * Sorts plants by lifespan.
-   * Uses lambda expression.
+   * Checkstyle-recommended Javadoc comment. Sorts plants by lifespan. Uses lambda
+   * expression.
    * 
-   * @param plants represents GardenPlant list
+   * @param plants   represents GardenPlant list
    * @param sortType sortType differentiates ascending and descending sort types
    */
   public static void sortPlantsByLifespanInYearsLambdaStyle(List<GardenPlant> plants,
-        SortType sortType) {
+      SortType sortType) {
     Comparator<GardenPlant> comparator = (firstPlant,
         secondPlant) -> firstPlant.getLifespanInYears() - secondPlant.getLifespanInYears();
     plants.sort(sortType == SortType.ASC ? comparator : comparator.reversed());
@@ -73,7 +78,7 @@ public class PlantShopManagerUtils {
   static class PlantsSorterBySeedsPricePerKgInUah implements Comparator<GardenPlant> {
     @Override
     public int compare(GardenPlant firstPlant, GardenPlant secondPlant) {
-      return (int) (firstPlant.getSeedsPricePerKgInUah() - secondPlant.getSeedsPricePerKgInUah());
+      return (int) (firstPlant.getSeedsPricePerKgInUaH() - secondPlant.getSeedsPricePerKgInUaH());
     }
   }
 
@@ -83,5 +88,4 @@ public class PlantShopManagerUtils {
       return firstPlant.getName().compareTo(secondPlant.getName());
     }
   }
-
 }

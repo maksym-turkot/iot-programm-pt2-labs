@@ -13,8 +13,18 @@ public class Vegetable extends CultivatedPlant {
   }
 
   public Vegetable(String name, PlantingSeason plantingSeason, int lifespanInYears,
-      double seedsPricePerKgInUah, int nutricionalValueInKCalPerKg, boolean borshchIngredient) {
-    super(name, plantingSeason, lifespanInYears, seedsPricePerKgInUah, nutricionalValueInKCalPerKg);
+      double seedsPricePerKgInUaH, int nutricionalValueInKCalPerKg, boolean borshchIngredient) {
+    super(name, plantingSeason, lifespanInYears, seedsPricePerKgInUaH, nutricionalValueInKCalPerKg);
     this.borshchIngredient = borshchIngredient;
+  }
+
+  @Override
+  public String getHeaders() {
+    return super.getHeaders() + "," + " borshchIngredient";
+  }
+
+  @Override
+  public String toCsV() {
+    return super.toCsV() + "," + borshchIngredient;
   }
 }
