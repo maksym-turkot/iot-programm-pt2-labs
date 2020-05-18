@@ -5,17 +5,20 @@ import ua.lviv.iot.plants.model.SortType;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlantShopManagerUtilsTest extends PlantShopManagerBaseTest {
+  
   @Test
   public void testSortPlantsBySeedsPricePerKgInUah() {
     supplyAllPlants();
     PlantShopManagerUtils.sortPlantsBySeedsPricePerKgInUah(flowers, SortType.ASC);
     assertEquals(1170.25, flowers.get(0).getSeedsPricePerKgInUaH());
     assertEquals(3283.42, flowers.get(1).getSeedsPricePerKgInUaH());
+
   }
 
   @Test
   public void testSortPlantsByName() {
     supplyAllPlants();
+
 
     PlantShopManagerUtils.sortPlantsByName(vegetables, SortType.DESC);
     assertEquals("Tomato", vegetables.get(0).getName());
@@ -49,4 +52,6 @@ class PlantShopManagerUtilsTest extends PlantShopManagerBaseTest {
     assertEquals(3, vegetables.get(1).getLifespanInYears());
 
   }
+
 }
+

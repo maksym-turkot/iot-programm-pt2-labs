@@ -35,4 +35,6 @@ public abstract class PlantShopManagerBaseTest {
     supplyVegetables();
     supplyFruits();
   }
+
 }
+

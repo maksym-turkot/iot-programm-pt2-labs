@@ -10,7 +10,6 @@ import java.util.List;
 
 class PlantShopManagerTest extends PlantShopManagerBaseTest {
   private PlantShopManager plantShopManager;
-
   @BeforeEach
   public void setUp() {
     plantShopManager = new PlantShopManager();

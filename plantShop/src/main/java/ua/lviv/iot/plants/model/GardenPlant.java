@@ -6,7 +6,7 @@ public abstract class GardenPlant {
   protected PlantingSeason plantingSeason;
   protected int lifespanInYears;
   protected double seedsPricePerKgInUaH;
-
+  protected Integer id;
 
   public String getName() {
     return name;
@@ -40,12 +40,20 @@ public abstract class GardenPlant {
     this.seedsPricePerKgInUaH = seedsPricePerKgInUaH;
   }
 
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
   /**
    * GardenPlant class constructor.
    * 
-   * @param name defines plant's name
-   * @param plantingSeason shows when plant can be planted
-   * @param lifespanInYears indicates lifespan
+   * @param name                 defines plant's name
+   * @param plantingSeason       shows when plant can be planted
+   * @param lifespanInYears      indicates lifespan
    * @param seedsPricePerKgInUaH shows how expensive plant is
    */
   public GardenPlant(String name, PlantingSeason plantingSeason, int lifespanInYears,
@@ -62,6 +70,9 @@ public abstract class GardenPlant {
 
   public String toCsV() {
     return name + "," + plantingSeason + "," + lifespanInYears + "," + seedsPricePerKgInUaH;
-
+  }
+  
+  public GardenPlant() {
+    
   }
 }

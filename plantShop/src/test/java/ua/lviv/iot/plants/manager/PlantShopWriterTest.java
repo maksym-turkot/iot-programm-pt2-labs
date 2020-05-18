@@ -38,7 +38,7 @@ class PlantShopWriterTest extends PlantShopManagerBaseTest {
     try (Writer csvWriter = new StringWriter()) {
       PlantShopWriter writer = new PlantShopWriter();
       writer.setCsvWriter(csvWriter);
-
+      
       writer.writeToFile(flowers);
       writer.writeToFile(vegetables);
       writer.writeToFile(fruits);

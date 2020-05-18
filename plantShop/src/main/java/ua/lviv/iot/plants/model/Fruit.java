@@ -26,6 +26,5 @@ public class Fruit extends CultivatedPlant {
   @Override
   public String toCsV() {
     return super.toCsV() + "," + exotic;
-
   }
 }

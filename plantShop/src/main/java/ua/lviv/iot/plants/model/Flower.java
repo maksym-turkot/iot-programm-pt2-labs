@@ -26,6 +26,9 @@ public class Flower extends GardenPlant {
   @Override
   public String toCsV() {
     return super.toCsV() + "," + color;
-
+  }
+  
+  public Flower() {
+    
   }
 }
